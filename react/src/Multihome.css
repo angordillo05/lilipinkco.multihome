@@ -1,0 +1,44 @@
+.siteContainer {}
+.ElementWrapperContainer {}
+.tabLink {}
+.tabContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.siteContainer--lilipink .ElementWrapperContainer--header-yoi,
+.siteContainer--yoi .ElementWrapperContainer--header-lilipink {
+    display: none;
+}
+
+.tabLink {
+    width: 297px;
+}
+.siteContainer .siteContainer .tabContainer {
+    display: none;
+  }
+
+  .tabContainerLink {
+      display: flex;
+  }
+
+  .tabMenuLink {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+  }
+  
+  .tabMenuLink .tabMultiLinkItem {
+    color: #727272;
+    margin-left: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .tabMenuLink .tabMultiLinkItem:first-child {
+    color: #e4147e;
+    font-size: 14px;
+  }

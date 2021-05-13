@@ -1,0 +1,9 @@
+{
+  "multi-home-wrapper": {
+    "component": "MultiHomeWrapper"
+  },
+  "element-wrapper": {
+    "component": "ElementWrapper",
+    "composition": "children"
+  }
+}

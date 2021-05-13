@@ -1,7 +1,7 @@
 {
   "name": "multihomecustom",
   "vendor": "lilipinkco",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "vtex-version": "0.0.0",
   "builders": {
     "react": "3.x",
